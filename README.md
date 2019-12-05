@@ -1,2 +1,2 @@
 # Puppet-master
-animations with blocks in spigot
+animations with blocks in paper
