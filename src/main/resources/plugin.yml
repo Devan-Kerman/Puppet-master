@@ -1,0 +1,17 @@
+name: PuppetMaster
+version: @version@
+main: net.devtech.puppetmaster.PuppetMaster
+api-version: 1.13
+authors: [HalfOf2]
+description: Block animations for paper servers
+commands:
+  aniwand:
+    description: "gives the player an animator's wand"
+    permission: "puppetmaster.aniwand"
+    aliases: ["aw", "awand"]
+  entitywand:
+    description: "gives the player an entity wand"
+    permission: "puppetmaster.entitywand"
+    aliases: ["ew", "ewand"]
+depend:
+  - WorldEdit
